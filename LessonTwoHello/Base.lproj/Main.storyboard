@@ -33,6 +33,9 @@
                                 <state key="normal" title="Show Greeting">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="greetingButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gu3-4x-pHq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="RjY-V4-ytk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="168" id="buh-Oy-9SA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greetingButton" destination="joB-tQ-ygI" id="xRE-Im-lvA"/>
+                        <outlet property="greetingLabel" destination="RjY-V4-ytk" id="eru-W8-TIp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
